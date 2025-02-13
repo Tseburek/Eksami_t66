@@ -17,6 +17,7 @@ class cal(): #klass kus hakkab toimuma arvutused.
         return self.a ** self.b #saadame astendatud numbri vastuse tagasi.
 
 while True: #korrutab seda koodi blokki igavesti
+    print("///////////////////") #Väljastab /////////////
     a = int(input("Sisesta esimene number: ")) #Küsime kasutajalt esimest numbrit
     b = int(input("Sisesta teine number: ")) #Küsime kasutajalt teist numbrit.
     x = ('1. Liitmine \n2. lahutamine\n3. korrutamine\n4. jagamine\n5. Jäägi leidmine\n6. astendamine. ') #muutuja x mis sisaldab teksti.
@@ -42,7 +43,7 @@ while True: #korrutab seda koodi blokki igavesti
         print("Vastus: ",kalk.astendamine()) #Väljastame välja vastuse
         #break <- see kood vabastab koodi blokki korrutajatest, aga on praegu kommenteeritud et see kood korrutaks
     else: #Kui mitte kumbki eelmistest polnud see number, siis
-        print('Sisesta uuesti üks liitmise operaator') #Väljastame välja vastuse
+        print('Sisesta uuesti üks liitmise operaator') #Väljastame välja teksti
         #break <- see kood vabastab koodi blokki korrutajatest, aga on praegu kommenteeritud et see kood korrutaks
 
 
