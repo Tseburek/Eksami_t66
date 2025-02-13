@@ -1,5 +1,5 @@
 class cal(): #klass
-    def __init__(self,a,b):  #Sisestame a ja b-sse saadetud esimese ja teise numbrid.
+    def __init__(self,a,b):  #funktsioon kus me sisestame a ja b-sse saadetud esimese ja teise numbrid.
         self.a = a #salvestame a numbri aatribuuti
         self.b = b #salvestame b numbri aatribuuti
 
