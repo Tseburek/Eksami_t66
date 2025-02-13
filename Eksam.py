@@ -1,4 +1,4 @@
-class cal(): #klass
+class cal(): #klass kus hakkab toimuma arvutused.
     def __init__(self,a,b):  #funktsioon kus me sisestame a ja b-sse saadetud esimese ja teise numbrid.
         self.a = a #salvestame a numbri aatribuuti
         self.b = b #salvestame b numbri aatribuuti
@@ -24,26 +24,26 @@ while True: #korrutab seda koodi blokki igavesti
     valik = int(input('Sisesta üks valikutest: ')) #Küsime kasutajalt valikut
     kalk = cal(a, b) # sisestame klassi esimese ja teise numbrid
     if valik == 1: #Kui kasutaja valis valikuks 1, siis.
-        print("Vastus: ",kalk.liitmine()) #Prindime välja vastuse
-      # break <- see kood väljatad koodi blokki korrutajatest
+        print("Vastus: ",kalk.liitmine()) #Väljastame välja vastuse
+      # break <- see kood vabastab koodi blokki korrutajatest, aga on praegu kommenteeritud et see kood korrutaks
     elif valik == 2: #Kui kasutaja valis valikuks 2, siis.
-        print("Vastus: ",kalk.lahutamine()) #Prindime välja vastuse
-      #  break <- see kood väljatad koodi blokki korrutajatest
+        print("Vastus: ",kalk.lahutamine()) #Väljastame välja vastuse
+      #  break <- see kood vabastab koodi blokki korrutajatest, aga on praegu kommenteeritud et see kood korrutaks
     elif valik == 3: #Kui kasutaja valis valikuks 3, siis.
-        print("Vastus: ",kalk.korrutamine()) #Prindime välja vastuse
-       # break <- see kood väljatad koodi blokki korrutajatest
+        print("Vastus: ",kalk.korrutamine()) #Väljastame välja vastuse
+       # break <- see kood vabastab koodi blokki korrutajatest, aga on praegu kommenteeritud et see kood korrutaks
     elif valik == 4: #Kui kasutaja valis valikuks 4, siis.
-        print("Vastus: ",kalk.jagamine()) #Prindime välja vastuse
-        #break <- see kood väljatad koodi blokki korrutajatest
+        print("Vastus: ",kalk.jagamine()) #Väljastame välja vastuse
+        #break <- see kood vabastab koodi blokki korrutajatest, aga on praegu kommenteeritud et see kood korrutaks
     elif valik == 5: #Kui kasutaja valis valikuks 5, siis.
-        print("Vastus: ",kalk.jaak()) #Prindime välja vastuse
-        #break <- see kood väljatad koodi blokki korrutajatest
+        print("Vastus: ",kalk.jaak()) #Väljastame välja vastuse
+        #break <- see kood vabastab koodi blokki korrutajatest, aga on praegu kommenteeritud et see kood korrutaks
     elif valik == 6: #Kui kasutaja valis valikuks 6, siis.
-        print("Vastus: ",kalk.astendamine()) #Prindime välja vastuse
-        #break <- see kood väljatad koodi blokki korrutajatest
+        print("Vastus: ",kalk.astendamine()) #Väljastame välja vastuse
+        #break <- see kood vabastab koodi blokki korrutajatest, aga on praegu kommenteeritud et see kood korrutaks
     else: #Kui mitte kumbki eelmistest polnud see number, siis
-        print('Sisesta uuesti üks liitmise operaator') #Prindime välja vastuse
-        #break <- see kood väljatad koodi blokki korrutajatest
+        print('Sisesta uuesti üks liitmise operaator') #Väljastame välja vastuse
+        #break <- see kood vabastab koodi blokki korrutajatest, aga on praegu kommenteeritud et see kood korrutaks
 
 
 
